@@ -14,6 +14,12 @@
 		FA2A0F3D2837E14700D4558C /* intuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A0F3C2837E14700D4558C /* intuneTests.swift */; };
 		FA2A0F472837E14700D4558C /* intuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A0F462837E14700D4558C /* intuneUITests.swift */; };
 		FA2A0F492837E14700D4558C /* intuneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A0F482837E14700D4558C /* intuneUITestsLaunchTests.swift */; };
+		FAF3C3FB2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */; };
+		FAF3C3FC2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAF3C3FD2837E67200FC0895 /* MSAL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F92837E67200FC0895 /* MSAL.xcframework */; };
+		FAF3C3FE2837E67200FC0895 /* MSAL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F92837E67200FC0895 /* MSAL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAF3C3FF2837E67200FC0895 /* IntuneMAMSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3FA2837E67200FC0895 /* IntuneMAMSwift.xcframework */; };
+		FAF3C4002837E67200FC0895 /* IntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3FA2837E67200FC0895 /* IntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF3C4012837E67200FC0895 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FAF3C4002837E67200FC0895 /* IntuneMAMSwift.xcframework in Embed Frameworks */,
+				FAF3C3FE2837E67200FC0895 /* MSAL.xcframework in Embed Frameworks */,
+				FAF3C3FC2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		FA2A0F282837E14300D4558C /* intune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2A0F2B2837E14300D4558C /* intuneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intuneApp.swift; sourceTree = "<group>"; };
@@ -44,6 +66,9 @@
 		FA2A0F422837E14700D4558C /* intuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2A0F462837E14700D4558C /* intuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intuneUITests.swift; sourceTree = "<group>"; };
 		FA2A0F482837E14700D4558C /* intuneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intuneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwiftStub.xcframework; sourceTree = "<group>"; };
+		FAF3C3F92837E67200FC0895 /* MSAL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MSAL.xcframework; sourceTree = "<group>"; };
+		FAF3C3FA2837E67200FC0895 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwift.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF3C3FF2837E67200FC0895 /* IntuneMAMSwift.xcframework in Frameworks */,
+				FAF3C3FD2837E67200FC0895 /* MSAL.xcframework in Frameworks */,
+				FAF3C3FB2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,7 @@
 				FA2A0F3B2837E14700D4558C /* intuneTests */,
 				FA2A0F452837E14700D4558C /* intuneUITests */,
 				FA2A0F292837E14300D4558C /* Products */,
+				FAF3C3F72837E67200FC0895 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +156,16 @@
 			path = intuneUITests;
 			sourceTree = "<group>";
 		};
+		FAF3C3F72837E67200FC0895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3C3FA2837E67200FC0895 /* IntuneMAMSwift.xcframework */,
+				FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */,
+				FAF3C3F92837E67200FC0895 /* MSAL.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +176,7 @@
 				FA2A0F242837E14300D4558C /* Sources */,
 				FA2A0F252837E14300D4558C /* Frameworks */,
 				FA2A0F262837E14300D4558C /* Resources */,
+				FAF3C4012837E67200FC0895 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
