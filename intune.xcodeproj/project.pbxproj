@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA2A0F2C2837E14300D4558C /* intuneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A0F2B2837E14300D4558C /* intuneApp.swift */; };
 		FA2A0F2E2837E14300D4558C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A0F2D2837E14300D4558C /* ContentView.swift */; };
 		FA2A0F302837E14700D4558C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2A0F2F2837E14700D4558C /* Assets.xcassets */; };
 		FA2A0F332837E14700D4558C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2A0F322837E14700D4558C /* Preview Assets.xcassets */; };
@@ -24,6 +23,7 @@
 		FAA912252837E7C000CBCAAF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA912242837E7C000CBCAAF /* QuartzCore.framework */; };
 		FAA912272837E7C700CBCAAF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA912262837E7C700CBCAAF /* WebKit.framework */; };
 		FAA9122F2837F1F500CBCAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9122E2837F1F500CBCAAF /* AppDelegate.swift */; };
+		FAA912312837F25100CBCAAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA912302837F25100CBCAAF /* SceneDelegate.swift */; };
 		FAF3C3FB2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */; };
 		FAF3C3FC2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAF3C3FD2837E67200FC0895 /* MSAL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F92837E67200FC0895 /* MSAL.xcframework */; };
@@ -67,7 +67,6 @@
 
 /* Begin PBXFileReference section */
 		FA2A0F282837E14300D4558C /* intune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intune.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA2A0F2B2837E14300D4558C /* intuneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intuneApp.swift; sourceTree = "<group>"; };
 		FA2A0F2D2837E14300D4558C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA2A0F2F2837E14700D4558C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2A0F322837E14700D4558C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 		FAA912282837E81200CBCAAF /* intune.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = intune.entitlements; sourceTree = "<group>"; };
 		FAA912292837E95700CBCAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FAA9122E2837F1F500CBCAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA912302837F25100CBCAAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwiftStub.xcframework; sourceTree = "<group>"; };
 		FAF3C3F92837E67200FC0895 /* MSAL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MSAL.xcframework; sourceTree = "<group>"; };
 		FAF3C3FA2837E67200FC0895 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwift.xcframework; sourceTree = "<group>"; };
@@ -158,11 +158,11 @@
 			children = (
 				FAA912292837E95700CBCAAF /* Info.plist */,
 				FAA912282837E81200CBCAAF /* intune.entitlements */,
-				FA2A0F2B2837E14300D4558C /* intuneApp.swift */,
 				FA2A0F2D2837E14300D4558C /* ContentView.swift */,
 				FA2A0F2F2837E14700D4558C /* Assets.xcassets */,
 				FA2A0F312837E14700D4558C /* Preview Content */,
 				FAA9122E2837F1F500CBCAAF /* AppDelegate.swift */,
+				FAA912302837F25100CBCAAF /* SceneDelegate.swift */,
 			);
 			path = intune;
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 			files = (
 				FAA9122F2837F1F500CBCAAF /* AppDelegate.swift in Sources */,
 				FA2A0F2E2837E14300D4558C /* ContentView.swift in Sources */,
-				FA2A0F2C2837E14300D4558C /* intuneApp.swift in Sources */,
+				FAA912312837F25100CBCAAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +510,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = intune/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -541,7 +540,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = intune/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
