@@ -1,1 +1,1 @@
-# sample-intune-sdk-swiftui
+# An Intune MAM iOS SDK Example (SwiftUI)
