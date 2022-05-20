@@ -87,6 +87,7 @@
 		FAA912242837E7C000CBCAAF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FAA912262837E7C700CBCAAF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FAA912282837E81200CBCAAF /* intune.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = intune.entitlements; sourceTree = "<group>"; };
+		FAA912292837E95700CBCAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwiftStub.xcframework; sourceTree = "<group>"; };
 		FAF3C3F92837E67200FC0895 /* MSAL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MSAL.xcframework; sourceTree = "<group>"; };
 		FAF3C3FA2837E67200FC0895 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwift.xcframework; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 		FA2A0F2A2837E14300D4558C /* intune */ = {
 			isa = PBXGroup;
 			children = (
+				FAA912292837E95700CBCAAF /* Info.plist */,
 				FAA912282837E81200CBCAAF /* intune.entitlements */,
 				FA2A0F2B2837E14300D4558C /* intuneApp.swift */,
 				FA2A0F2D2837E14300D4558C /* ContentView.swift */,
@@ -502,6 +504,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"intune/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = intune/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -531,6 +534,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"intune/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = intune/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
