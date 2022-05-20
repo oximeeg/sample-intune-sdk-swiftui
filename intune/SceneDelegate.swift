@@ -2,6 +2,7 @@
 //  SceneDelegate.swift
 //
 
+import MSAL
 import SwiftUI
 import UIKit
 
@@ -22,6 +23,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     )
     self.window = window
     window.makeKeyAndVisible()
+  }
+
+  func scene(
+    _ scene: UIScene,
+    openURLContexts URLContexts: Set<UIOpenURLContext>
+  ) {
+    guard let urlContext = URLContexts.first else { return }
+
+    let url = urlContext.url
+    let sourceApp = urlContext.options.sourceApplication
+
+    MSALPublicClientApplication.handleMSALResponse(url, sourceApplication: sourceApp)
   }
 
 }
