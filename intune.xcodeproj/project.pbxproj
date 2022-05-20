@@ -23,6 +23,7 @@
 		FAA912232837E7BA00CBCAAF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA912222837E7BA00CBCAAF /* AudioToolbox.framework */; };
 		FAA912252837E7C000CBCAAF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA912242837E7C000CBCAAF /* QuartzCore.framework */; };
 		FAA912272837E7C700CBCAAF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA912262837E7C700CBCAAF /* WebKit.framework */; };
+		FAA9122F2837F1F500CBCAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9122E2837F1F500CBCAAF /* AppDelegate.swift */; };
 		FAF3C3FB2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */; };
 		FAF3C3FC2837E67200FC0895 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAF3C3FD2837E67200FC0895 /* MSAL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3C3F92837E67200FC0895 /* MSAL.xcframework */; };
@@ -88,6 +89,7 @@
 		FAA912262837E7C700CBCAAF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FAA912282837E81200CBCAAF /* intune.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = intune.entitlements; sourceTree = "<group>"; };
 		FAA912292837E95700CBCAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAA9122E2837F1F500CBCAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF3C3F82837E67200FC0895 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwiftStub.xcframework; sourceTree = "<group>"; };
 		FAF3C3F92837E67200FC0895 /* MSAL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MSAL.xcframework; sourceTree = "<group>"; };
 		FAF3C3FA2837E67200FC0895 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IntuneMAMSwift.xcframework; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				FA2A0F2D2837E14300D4558C /* ContentView.swift */,
 				FA2A0F2F2837E14700D4558C /* Assets.xcassets */,
 				FA2A0F312837E14700D4558C /* Preview Content */,
+				FAA9122E2837F1F500CBCAAF /* AppDelegate.swift */,
 			);
 			path = intune;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA9122F2837F1F500CBCAAF /* AppDelegate.swift in Sources */,
 				FA2A0F2E2837E14300D4558C /* ContentView.swift in Sources */,
 				FA2A0F2C2837E14300D4558C /* intuneApp.swift in Sources */,
 			);
