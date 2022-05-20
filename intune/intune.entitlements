@@ -4,7 +4,9 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.gmail.oximeeg.example.intune.*</string>
+		<string>$(AppIdentifierPrefix)com.gmail.oximeeg.example.intune.swiftui</string>
+		<string>$(AppIdentifierPrefix)com.microsoft.adalcache</string>
+		<string>$(AppIdentifierPrefix)com.microsoft.intune.mam</string>
 	</array>
 </dict>
 </plist>
